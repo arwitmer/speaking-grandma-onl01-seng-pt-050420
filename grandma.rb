@@ -8,7 +8,7 @@ def speak_to_grandma
   elsif speak_to_grandma == "I hear you GRANDMA!"
     puts "HUH?! SPEAK UP SONNY!"
   
-  else "I HEAR YOU GRANDMA!".upcase
+  else speak_to_grandma == "I HEAR YOU GRANDMA!".upcase
     puts "NO, NOT SINCE 1938!"
     
   end
